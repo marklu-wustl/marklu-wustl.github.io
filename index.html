@@ -15,11 +15,17 @@
       background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
       color: #fff;
       border-radius: 1rem;
-      padding: 3rem 1rem;
+      padding: 3rem 2rem;
       box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
     }
     .hero img {
       border: 4px solid #fff;
+      margin-right: 1.5rem;
+      float: left;
+    }
+    .hero h1,
+    .hero p {
+      margin-left: 190px; /* 160px img + 30px margin */
     }
     section {
       margin-top: 3rem;
@@ -39,19 +45,19 @@
 </head>
 <body>
   <div class="container my-5">
-    <header class="hero text-center">
-        <img src="assets/headshot-marklu.png" class="rounded-circle mb-3" width="160" height="160" alt="Profile photo">
+    <header class="hero clearfix">
+        <img src="assets/headshot-marklu.png" class="rounded-circle" width="160" height="160" alt="Profile photo">
         <h1 class="fw-bold mb-1">Zeyu (Mark) Lu</h1>
         <p class="lead mb-3">First‑year Ph.D. Student · Washington University in St. Louis</p>
-        <p class="mx-auto" style="max-width: 700px;">I investigate human cognitive processes through innovative computational methods that capture dynamic behavioral patterns in naturalistic environments. My work bridges neuroscience and artificial intelligence by developing platforms that continuously monitor and model individual cognitive strategies in real‑time. Through this interdisciplinary approach, I aim to advance our understanding of cognitive variability, enhance assessment precision, and create more ecologically valid models of human cognition that can inform both clinical applications and agentic AI development.</p>
-        <p class="mt-4">
-          <a class="btn btn-light btn-sm me-2" href="mailto:mark.lu@wustl.edu">Email me</a>
-          <a class="btn btn-outline-light btn-sm" href="assets/cv.pdf" download>Download CV (PDF)</a>
+        <p style="max-width: 700px;">My research lies at the intersection of cognitive science and machine learning. By creating novel cognitive assessment platforms that capture the entire behavioral trajectory and integrate multimodal physiological signals, I preserve the rigor of psychometric testing while more effectively revealing individualized cognitive profiles, opening new avenues for clinical diagnosis, education, and human–machine interaction.</p>
+        <p class="mt-3">
+          mark.lu@wustl.edu &nbsp;|&nbsp;
+          <a class="link-light text-decoration-underline" href="assets/cv.pdf" download>Download CV (PDF)</a>
         </p>
     </header>
 
     <section>
-      <h2>Publications (Pre-prints)</h2>
+      <h2>Recent Publications</h2>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
           Dom C.&nbsp;P. Marticorena, <strong>Zeyu Lu</strong>, Chris Wissmann, Yash Agarwal, David Garrison, John&nbsp;M. Zempel, Dennis&nbsp;L. Barbour.
@@ -69,7 +75,7 @@
       </ul>
     </section>
 
-    <footer class="text-center mt-5 small">
+    <footer class="mt-5 small">
       © 2025 Zeyu (Mark) Lu · Last updated: <time datetime="2025-05-05">May 5, 2025</time>
     </footer>
   </div>
