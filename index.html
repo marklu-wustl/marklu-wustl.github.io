@@ -4,36 +4,75 @@
   <meta charset="utf-8">
   <title>Zeyu (Mark) Lu | Academic Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      background: #f8fafc;
+    }
+    .hero {
+      background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 3rem 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    }
+    .hero img {
+      border: 4px solid #fff;
+    }
+    section {
+      margin-top: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      border-bottom: 2px solid #4f46e5;
+      display: inline-block;
+      padding-bottom: .25rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      color: #6b7280;
+    }
+  </style>
 </head>
-<body class="container py-4">
-  <header class="text-center mb-4">
-    <img src="assets/photo.jpg" alt="Profile photo" class="rounded-circle" width="140" height="140">
-    <h1 class="mt-3">Zeyu (Mark) Lu</h1>
-    <p class="fs-5">First‑year Ph.D. student, Washington University in St. Louis</p>
-    <p>I investigate human cognitive processes through innovative computational methods that capture dynamic behavioral patterns in naturalistic environments. My work bridges neuroscience and artificial intelligence by developing platforms that continuously monitor and model individual cognitive strategies in real‑time. Through this interdisciplinary approach, I aim to advance our understanding of cognitive variability, enhance assessment precision, and create more ecologically valid models of human cognition that can inform both clinical applications and agentic AI development.</p>
-    <p>
-      📧 <a href="mailto:mark.lu@wustl.edu">mark.lu@wustl.edu</a> │
-      <a href="assets/cv.pdf" download>Download CV (PDF)</a>
-    </p>
-  </header>
+<body>
+  <div class="container my-5">
+    <header class="hero text-center">
+        <img src="assets/headshot-marklu.png" class="rounded-circle mb-3" width="160" height="160" alt="Profile photo">
+        <h1 class="fw-bold mb-1">Zeyu (Mark) Lu</h1>
+        <p class="lead mb-3">First‑year Ph.D. Student · Washington University in St. Louis</p>
+        <p class="mx-auto" style="max-width: 700px;">I investigate human cognitive processes through innovative computational methods that capture dynamic behavioral patterns in naturalistic environments. My work bridges neuroscience and artificial intelligence by developing platforms that continuously monitor and model individual cognitive strategies in real‑time. Through this interdisciplinary approach, I aim to advance our understanding of cognitive variability, enhance assessment precision, and create more ecologically valid models of human cognition that can inform both clinical applications and agentic AI development.</p>
+        <p class="mt-4">
+          <a class="btn btn-light btn-sm me-2" href="mailto:mark.lu@wustl.edu">Email me</a>
+          <a class="btn btn-outline-light btn-sm" href="assets/cv.pdf" download>Download CV (PDF)</a>
+        </p>
+    </header>
 
-  <section>
-    <h2>Recent Publications</h2>
-    <ul>
-      <li>Dom C. P. Marticorena, <strong>Zeyu Lu</strong>, Chris Wissmann, Yash Agarwal, David Garrison, John M. Zempel, Dennis L. Barbour. <em>Immersive virtual games: winners for deep cognitive assessment</em>. <strong>arXiv:2502.10290, 2025</strong>.</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Recent Publications</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Dom C.&nbsp;P. Marticorena, <strong>Zeyu Lu</strong>, Chris Wissmann, Yash Agarwal, David Garrison, John&nbsp;M. Zempel, Dennis&nbsp;L. Barbour.
+          <em>Immersive virtual games: winners for deep cognitive assessment</em>. <strong>arXiv:2502.10290, 2025</strong>.
+        </li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Talks</h2>
-    <ul>
-      <li>Demo presentation: <em>From Action to Insight: Unfolding Cognitive Processes in Real‑Time Minecraft Gameplay</em> at the Inaugural National Artificial Intelligence Research Resource Pilot.</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Talks</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Demo presentation: <em>From Action to Insight: Unfolding Cognitive Processes in Real‑Time Minecraft Gameplay</em> at the Inaugural National Artificial Intelligence Research Resource Pilot.
+        </li>
+      </ul>
+    </section>
 
-  <footer class="text-center mt-5 small">
-    © 2025 Zeyu (Mark) Lu. Last updated: <time datetime="2025-05-05">May 5, 2025</time>.
-  </footer>
+    <footer class="text-center mt-5 small">
+      © 2025 Zeyu (Mark) Lu · Last updated: <time datetime="2025-05-05">May 5, 2025</time>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
